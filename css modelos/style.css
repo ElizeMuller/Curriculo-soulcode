@@ -59,6 +59,12 @@ html, body{
     font-style: bold;
     font-family:'Saira extra condensed', sans-serif;
 }
+.menu a:hover{
+    opacity: 0.5;
+    transition: .5s all;
+    color:#F9ED48;
+    font-style: bold;
+}
 .menu a.selected{
     opacity: 1;
 
@@ -72,6 +78,9 @@ html, body{
     overflow-x:auto;
     padding: 0 3%;
     font-family:'Saira extra condensed', sans-serif;
+    background-image: url(../Imagens/Currículo/background.png);
+    box-shadow: black;
+
 }
 section.descricao{
     position:relative;
@@ -80,18 +89,18 @@ section.descricao{
     margin-bottom:20px;
 }
 section.descricao h1{
-    color: #50595b;
-    font-size: 40px;
+    color: #F9ED48;
+    font-size: 50px;
     font-weight: bold;
     text-align: left;
 }
 section.descricao h1 > span{
     color: #FF2824;
-    font-size: 40px;
+    font-size: 50px;
     text-align: left;
 }
 section.descricao h2{
-    color: #50595b;
+    color: white;
     font-size: 26px;
     font-weight: bold;
     text-align: left;
@@ -102,7 +111,7 @@ section.descricao h3{
     text-align: left;
 }
 section.descricao p{
-    color: #50595b;
+    color: white;
     font-size: 18px;
     text-align: left;
 }
@@ -134,20 +143,41 @@ section.habilidades{
     transform:translateY(-50%);
     margin-bottom:20px; 
 }
+.habs{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:20px;
+    margin-bottom:20px;
+}
 section.habilidades h2{
     color: #FF2824;
     font-size: 26px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
 }
-section.habilidades ul{
-    
-    color: #50595b;
-    font-size: 18px;
-    text-align: left;
+section.habilidades h3{
+    display: inline-block;
+    position:relative;
+    color: white;
+    font-size: 16px;
+    margin-left:20px;
+    margin-right:10px;
+    text-align: center;
+    border-color: white;
+    border: 1px solid;
+    align-items: justify;
+    align-content:center;
+    margin-bottom:20px;
+    background-color:rgb(61, 103, 243);
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
 }
 section.experiencia{
-    margin-top: 500px;
+    margin-top: 250px;
     position:relative;
     top:50%;
     transform:translateY(-50%);
@@ -155,7 +185,7 @@ section.experiencia{
 
 section.experiencia h2{
     color: #FF2824;
-    font-size: 26px;
+    font-size: 28px;
     font-weight: bold;
     text-align: left;
     font-style: bold;
@@ -169,51 +199,58 @@ section.experiencia h3{
     margin-top: 20px;
 }
 section.experiencia h4{
-    color: #50595b;
-    font-size: 16px;
+    color: white;
+    font-size: 18px;
     font-weight: bold;
     text-align: justify;
     margin-top: 20px;
 }
 section.experiencia p{
-    color: #50595b;
-    font-size: 14px;
+    color: white;
+    font-size: 16px;
     text-align: justify;
     margin-top: 20px;
 }
 section.idiomas{
-    position:relative;
-    top:50%;
-    transform:translateY(-50%);
-    
+    margin-top:40px;
+    color:white;
+    opacity: 0,5;
+    font-size:20px;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration:none;
+    text-align: center;
+    font-style: bold;
+    font-family:'Saira extra condensed', sans-serif;
 }
+    
 section.idiomas h2{
     color: #FF2824;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     font-style: bold;
     margin-top: 20px;
 }
 section.idiomas h3{
-    color: #4B94F8;
+    color: white;
     font-size: 20px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     margin-top: 20px;
 }
 section.idiomas h4{
-    color: #50595b;
+    color: #F9ED48;
     font-size: 16px;
     font-weight: bold;
-    text-align: justify;
+    text-align: center;
     margin-top: 20px;
-    
+    position:relative;
 }
 section.formacao{
-    margin-top: 100px;
+    margin-top: 250px;
     position:relative;
-    top:50%;
+    top:10%;
     transform:translateY(-50%);
     
 }
@@ -233,7 +270,7 @@ section.formacao h3{
     margin-top: 20px;
 }
 section.formacao h4{
-    color: #50595b;
+    color: white;
     font-size: 16px;
     font-weight: bold;
     text-align: justify;
@@ -241,29 +278,57 @@ section.formacao h4{
     
 }
 section.extracurriculares{
-    margin-top: 250px;
     position:relative;
-    top:50%;
+    top:30%;
     transform:translateY(-50%);
-    
+}
+section.extracurriculares .blocks{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+
+section.extracurriculares .block1{
+   background-color: #4B94F8;
+   width:300px;
+   height:auto;
+   text-align:center;
+   align-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    flex-wrap: wrap;
+
+
 }
 section.extracurriculares h2{
-    color: #FF2824;
+    color: #F9ED48;
     font-size: 26px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     font-style: bold;
     margin-top: 20px;
+    left:40px;
+
 }
 section.extracurriculares h3{
-    color: #4B94F8;
+    color: #F9ED48;
     font-size: 20px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     margin-top: 20px;
+    left:40px;
 }
 section.extracurriculares h4{
-    color: #50595b;
+    color: white;
     font-size: 16px;
     font-weight: bold;
     text-align: justify;
