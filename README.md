@@ -45,9 +45,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :eyes: Confira
 
-Você pode acessar por aqui:
-
--  [Projeto HTML][demo]
 
 ## :information_source: Como utilizar
 
