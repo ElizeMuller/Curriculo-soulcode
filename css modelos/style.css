@@ -143,12 +143,13 @@ section.habilidades{
     transform:translateY(-50%);
     margin-bottom:20px; 
 }
-.habs{
+section.habs{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top:20px;
     margin-bottom:20px;
+    align-items: center;
 }
 section.habilidades h2{
     color: #FF2824;
@@ -162,16 +163,17 @@ section.habilidades h3{
     color: white;
     font-size: 16px;
     margin-left:20px;
-    margin-right:10px;
+    margin-top:20px;
+    margin-right:20px;
     text-align: center;
     border-color: white;
     border: 1px solid;
-    align-items: justify;
+    align-items: center;
     align-content:center;
     margin-bottom:20px;
     background-color:rgb(61, 103, 243);
-    width: auto;
-    height: auto;
+    width: 250px;
+    height: 50px;
     padding: 5px;
     border-radius: 5px;
     text-align: center;
