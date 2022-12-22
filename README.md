@@ -1,4 +1,4 @@
-﻿# SoulCode-Exercises
+﻿# Curriculo-soulcode
 <h1 align="center">
    <a href="https://elizemuller.github.io/Curriculo-soulcode/index.html">
 	<img alt="Logo" src="https://tiinside.com.br/wp-content/uploads/2021/10/SoulCode.png" />
