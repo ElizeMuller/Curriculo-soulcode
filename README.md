@@ -1,7 +1,7 @@
 ﻿# Curriculo-soulcode
 <h1 align="center">
    <a href="https://elizemuller.github.io/CurriculoSoulcode/">
-	<img src="/Imagens/Currículo/png icon.png">
+	<img src="/Imagens/Currículo/png icon.png" style="height:100px;width:auto">
 	</a>
     <br>
 </h1>
