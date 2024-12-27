@@ -151,17 +151,24 @@ section.descricao hr{
 }
 section.redesocial{
         margin-top:20px;
-        padding: 0.5px;
+        align-items: center;
+        margin-left:2rem;
+        margin-right:1rem;
         height: 2rem;
         color: var(--color-contrast);
         display:inline-block;
+        text-align: center;
     }
-.redesocial p{
-    margin-left:6rem;
+section.redesocial p{
+    margin-left:3rem;
+    align-items: center;
+    text-align: center;
+    display: flexbox;
+
 }
 .redesocial svg{
-  margin-right: 1rem;
-  margin-left: 1rem;
+  margin-right: 5%;
+  margin-left: 5%;
   position: relative;
   display: inline-block;
   height: 2rem;
@@ -182,7 +189,6 @@ section.habilidades{
     transform:translateY(-50%);
     margin-bottom:20px; 
 }
-section.habilidades .habs{
 section.habilidades .habs{
     display:flex;
     flex-wrap: wrap;
@@ -341,7 +347,6 @@ section.formacao h2{
     font-size: 26px;
     font-weight: bold;
     text-align: center;
-    text-align: center;
     font-style: bold;
     margin-top: 20px;
 }
@@ -349,7 +354,7 @@ section.formacao h3{
     color: #4B94F8;
     font-size: 20px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
     margin-left:20px;
 }
